@@ -1,0 +1,47 @@
+html body {
+	background-color: #3179f5;
+}
+
+h1 {
+	font-family: "Gunship";
+}
+
+h4 {
+	margin-top: 1em;
+	font-weight: 600;
+}
+
+h5 {
+	margin-top: 0.5em;
+}
+
+.header h4 {
+	font-family: "Gunship";
+	font-size: 20px;
+}
+
+#choices {
+	margin-top: 1em;
+}
+
+#choices h4 {
+	margin-bottom: 1em;
+}
+
+#character {
+	margin-top: 1em;
+	display: none;
+}
+
+#result {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#yumi, #ulrich, #odd, #jeremie, #aelita, #william, #sissi, #samantha {
+	display: none;
+}
+
+.btn {
+	margin-top: 1em;
+}

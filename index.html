@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Which Code Lyoko character are you?</title>
+  </head>
+  <body>
+
+  	<section class="header">
+  		<div class="container">
+  			<h1>Which Code Lyoko character are you?</h1>
+  			<h4>Take our special quiz below, and find out which character fits you personally.</h4>
+  		</div>
+  	</section>
+
+  	<section class="quiz">
+  		<div class="container">
+  			<div class="images">
+  				<img src="images/yumi1.jpg" alt="Yumi Ishiyama" width="260">
+  				<img src="images/ulrich1.jpg" alt="Ulrich Stern" width="260">
+  				<img src="images/odd1.jpg" alt="Odd Della Robbia" width="260">
+  				<img src="images/jeremie1.jpg" alt="Jeremie Belpois" width="260">
+  				<img src="images/aelita1.jpg" alt="Aelita Schaeffer" width="260">
+  				<img src="images/william1.jpg" alt="William Dunbar" width="260">
+  				<img src="images/sissi1.jpg" alt="Sissi Delmas" width="260">
+  				<img src="images/samantha1.jpg" alt="Samantha Knight" width="260">
+  			</div>
+  			<form id="choices">
+  				<h4>To get started, let's answer a few quick questions...</h4>
+  				<div class="form-row">
+  					<div class="form-group col-md-4">
+        				<label for="name">First Name</label>
+        				<input id="name" type="text">
+        			</div>
+        			<div class="form-group col-md-4">
+        				<label for="gender">Gender</label>
+        				<select id="gender">
+          					<option value="female">Female</option>
+          					<option value="male">Male</option>
+        				</select>
+        			</div>
+        		</div>
+        		<h4>With that out of the way, let's get to the real fun...</h4>
+  				<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 1:</h5>
+        				<label for="question1">Do you consider yourself an introvert or an extrovert? (Introverts gain energy from time alone, while extroverts gain energy through interaction with others.)</label>
+        				<br>
+        				<select id="question1">
+        					<option value="intro">I'm more of an introvert</option>
+          					<option value="extro">I'm more of an extrovert</option>
+          					<option value="switch">I'm not really sure/I sometimes switch</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 2:</h5>
+        				<label for="question2">Choose a weapon that best describes you.</label>
+        				<br>
+        				<select id="question2">
+        					<option value="fan">Fan</option>
+          					<option value="sword">Sword</option>
+          					<option value="arrow">Arrow</option>
+          					<option value="beam">Energy Beam</option>
+          					<option value="keyboard">Mouse and keyboard</option>
+          					<option value="blade">Giant blade</option>
+          					<option value="voice">My loud voice</option>
+          					<option value="skateboard">My skateboard</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 3:</h5>
+        				<label for="question3">You're skipping class to get somewhere extremely important, but a teacher catches you and demands that you go to the office. What do you do?</label>
+        				<br>
+        				<select id="question3">
+        					<option value="run">Run in the other direction</option>
+          					<option value="excuse">Make up an excuse</option>
+          					<option value="distract">Create a distraction</option>
+          					<option value="submit">Submit to their request</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 4:</h5>
+        				<label for="question4">You have a crush on someone. How do you approach it?</label>
+        				<br>
+        				<select id="question4">
+        					<option value="hide">Keep it hidden</option>
+          					<option value="sneak">Be romantic, but don't let your friends see</option>
+          					<option value="flirt">Flirt every chance you get... persistence is key</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 5:</h5>
+        				<label for="question5">What is your relationship with your family like?</label>
+        				<br>
+        				<select id="question5">
+        					<option value="live">I live with my family, so I see them every day</option>
+          					<option value="half">I'm close with one family member, but not the other</option>
+          					<option value="close">I'm very close with my family; I wish I could see them more</option>
+          					<option value="dog">My dog is my family when I'm not with my family</option>
+          					<option value="trouble">I drive my family crazy because I get in trouble</option>
+          					<option value="spoiled">My parents spoil me when I'm with them</option>
+          					<option value="none">I don't have a family; my friends are my family</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 6:</h5>
+        				<label for="question6">What subject are you/were you the best at in school? (Or, which one do you LIKE the most?)</label>
+        				<br>
+        				<select id="question6">
+        					<option value="math">Math</option>
+          					<option value="science">Science</option>
+          					<option value="physical">Physical Education/Gym</option>
+          					<option value="english">English</option>
+          					<option value="history">History</option>
+          					<option value="art">Art/Music</option>
+          					<option value="love">I like studying the opposite sex</option>
+          				</select>
+        			</div>
+        		</div>
+        		<div class="form-row">
+        			<div class="form-group col-md-12">
+        				<h5>Question 7:</h5>
+        				<label for="question7">Are you more stereotypically feminine or masculine?</label>
+        				<br>
+        				<select id="question7">
+        					<option value="masc">Masculine</option>
+          					<option value="fem">Feminine</option>
+          					<option value="not">Not Sure</option>
+          				</select>
+        			</div>
+        		</div>
+        		<button type="submit" class="btn btn-danger">Who am I?</button>
+  			</form>
+  			<div id="character">
+        		<h4>Your character is... <span id="result"></span>! Can you keep a secret?</h4>
+      		</div>
+      		<div id="image">
+        		<img src="images/yumi1.jpg" id="yumi">
+        		<img src="images/ulrich1.jpg" id="ulrich">
+        		<img src="images/odd1.jpg" id="odd">
+        		<img src="images/jeremie1.jpg" id="jeremie">
+        		<img src="images/aelita1.jpg" id="aelita">
+        		<img src="images/william1.jpg" id="william">
+        		<img src="images/sissi1.jpg" id="sissi">
+        		<img src="images/samantha1.jpg" id="samantha">
+        	</div>
+  		</div>
+  	</section>
+
+  </body>
+</html>
